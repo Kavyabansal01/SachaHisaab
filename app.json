@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Sacha Hisaab",
+    "slug": "sacha-hisaab",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.sachahisaab.ledger",
+      "permissions": [
+        "USE_BIOMETRIC",
+        "USE_FINGERPRINT"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "plugins": [
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow Sacha Hisaab to use biometric authentication."
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

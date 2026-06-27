@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Gradle
+.gradle/
+android/.gradle/
+
+# Build folders
+android/build/
+android/app/build/
+build/
+dist/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Android signing keys
+*.keystore
+*.jks
+
+# OS files
+Thumbs.db
+.DS_Store
+dist-check/
+local-android-sdk/
